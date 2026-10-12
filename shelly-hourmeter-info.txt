@@ -18,6 +18,6 @@ is not the case.
 
 This may be useful for other devices beside laser projectors.
 
-The script also provides a HTTP URL to see the counters.
+The script also provides a HTTP URL to see the counters. See png file for example output.
 
 More documentation in the script itself.
