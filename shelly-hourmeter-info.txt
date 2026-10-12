@@ -1,0 +1,23 @@
+Script to run on a shelly power switch with power meter functionality
+which is connected to a device to provide a counter for how long the
+device is in operation.
+
+This was written originally for a projector and relies on the power
+meter capability of the Shelly to measure power consumption to
+determine whether the projector is switched on or off. It can
+also determine if the projector may be switched on in some form of
+idle mode where it consumes less than 50W, or when it is actually
+running with its laser lights powered on, consuming more than 50W.
+
+For a laser projector specifically, it is meant to know how long the
+laser light was running before it fails. Better projectors may provide
+an actual counter themselves, but given how laser lights are non-replaceable,
+having such a counter in a projector itself is only useful if there is
+then still another way to display the counter value. Which most often
+is not the case.
+
+This may be useful for other devices beside laser projectors.
+
+The script also provides a HTTP URL to see the counters.
+
+More documentation in the script itself.
